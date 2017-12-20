@@ -7,20 +7,19 @@
 ## Example creation usage:
 
 ```js
-https://little-url.herokuapp.com/new/https://www.google.com
-https://little-url.herokuapp.com/new/http://foo.com:80
+https://site/https://www.google.com
 ```
 
 ## Example creation output:
 
 ```js
-{"original_url":"http://foo.com:80","short_url":"https://little-url.herokuapp.com/8170"}
+{"url":"http://www.google.com","digit":"1"}
 ```
 
 ## Usage:
 
 ```
-https://little-url.herokuapp.com/2871
+https://site/1
 ```
 
 ### Will redirect to:
