@@ -14,7 +14,7 @@ function validateURL(url) {
     return regex.test(url);
 }
 
-var uri = 'mongodb://cjlogrono:incorrect@ds137686.mlab.com:37686/freecodecamp';
+var uri = //mongo db path;
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
